@@ -1,7 +1,6 @@
-import {Config} from 'remotion';
-import {webpackOverride} from './src/webpack-override';
+import { Config } from "@remotion/cli/config";
+import { webpackOverride } from './src/webpack-override';
 
-Config.setImageFormat('jpeg');
 Config.setOverwriteOutput(true);
 Config.setCodec('gif');
 Config.setEveryNthFrame(2);

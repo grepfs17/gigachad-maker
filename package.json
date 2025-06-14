@@ -14,19 +14,20 @@
   "repository": {},
   "license": "UNLICENSED",
   "dependencies": {
-    "@remotion/cli": "3.3.83",
+    "@remotion/cli": "4.0.314",
+    "@remotion/eslint-plugin": "^4.0.314",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
-    "remotion": "3.3.83"
+    "remotion": "^4.0.314"
   },
   "devDependencies": {
-    "@remotion/eslint-config": "3.3.83",
+    "@remotion/eslint-config": "^4.0.314",
     "@types/react": "^18.0.26",
     "@types/web": "^0.0.86",
     "autoprefixer": "10.4.4",
     "css-loader": "^6.7.1",
     "eslint": "^8.30.0",
-    "postcss": "8.4.12",
+    "postcss": "^8.5.5",
     "postcss-loader": "6.2.1",
     "postcss-preset-env": "7.4.3",
     "prettier": "^2.8.7",
